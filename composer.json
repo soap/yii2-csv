@@ -1,0 +1,26 @@
+{
+    "name": "soap/yii2-csv",
+    "description": "CSV import tool based on league/csv and yii2",
+    "type": "yii2-extension",
+    "require": {
+        "php": "~7.0",
+        "league/csv": "~9.0",
+        "yiisoft/yii2": "~2.0"
+    },
+    "require-dev": {
+    },
+    "license": "BSD-3",
+    "authors": [
+        {
+            "name": "Prasit Gebsaap",
+            "email": "prasit.gebsaap@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "soap\\csv\\": "src/"
+        }
+    }
+}
